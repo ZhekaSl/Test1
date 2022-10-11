@@ -24,6 +24,7 @@ public class HelloWorld {
         double sum = 0;
         for (Double i : orders.values()) {
             sum += i;
+            System.out.println(sum);
         }
         System.out.println("Сумма: " + sum);
 
