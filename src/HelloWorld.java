@@ -39,6 +39,7 @@ public class HelloWorld {
         }
         for (String i : orders.keySet()) {  //keySet() - выводит все ключи из таблицы
             System.out.println(i);
+            System.out.println(i);
         }
         orders.remove("Zhenya"); //remove (ключ) - удаление элемента из таблицы по ключу
         boolean a = orders.containsKey("Zhenya"); //containsKey(key) - возвращает true, если ключ найден
